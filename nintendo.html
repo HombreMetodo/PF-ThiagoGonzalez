@@ -5,125 +5,165 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GatoGamer | Nintendo</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="https://kit.fontawesome.com/d0893841eb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./imagenes/pngwing.com.ico">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a href="index.html"><img src="./imagenes/pngwing.com.png" alt="logo de la web" class="logo-img"></a>
-          <a class="navbar-brand" href="index.html">GatoGamer</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+<body class="grid-container">
+        <header class="header">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid fondo2">
+                    <a href="index.html"><img src="./imagenes/pngwing.com.png" alt="logo de la web" class="logo-img"></a>
+                    <a class="navbar-brand" href="index.html">GatoGamer</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="nosotros.html">SobreNosotros!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="play.html">Playstation</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="xbox.html" >Xbox</a>
+                            <li class="nav-time">
+                                <a href="nintendo.html" class="nav-link">Nintendo</a>
+                                </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav> 
+      </header>
+        <main class="main">
+            <div>    
+            <section id="popular">  
+                <h2 class="fondo2 distancia">Popular</h2>
+                <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque inventore blanditiis excepturi numquam nam amet accusamus delectus? Commodi, harum. </p>
+                    <img class="foto-noticia radio" src="./imagenes/2x1_SuperMarioHub_image1600w.jpg" alt="noticias">  
+                </article>
+            
+                <article class="distancia">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae praesentium error commodi, doloremque ratione sed, natus repellendus nisi perspiciatis rem consequatur nam libero incidunt dicta mollitia aliquid odio porro eaque!</p>
+                    <img class="foto-noticia radio" src="./imagenes/wii-sports.jpg" alt="noticias">
+                </article>
+            </section>
+
+            <section id="ultimas">
+                <h2 class="fondo2 distancia">Ultimas noticias</h2>
+                <article>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quibusdam, odit ducimus nostrum perspiciatis necessitatibus, nesciunt, eligendi aperiam earum ex laudantium dolor debitis inventore animi libero sunt et incidunt nisi?
+                    </p>
+                    <img src="./imagenes/nin-switch.jpg" alt="noticias-play" class="foto-noticia">
+                </article>
+
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum unde illum voluptas neque vel, quo ullam consequatur. Deleniti, modi doloribus? Adipisci natus dolores ad magni aliquam suscipit doloribus placeat et.</p>
+                    <img src="./imagenes/mario-bolsa.jpg" alt="noticias-xbox" class="foto-noticia">
+                </article>
+            </section>
         </div>
-      </nav>
-        <section>
-            <h2 class="fondo2">Playstation | Popular</h2>
-            <article>
-                <p>Sony cierra el estudio PixelOpus</p>
-                <img src="./imagenes/arte-concrete-genie.webp" alt="noticias-play" class="foto-noticia">
-            </article>
-        </section>
-    
-        <section>
-            <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore vero odio quas eos dolor, nulla optio veniam nemo rerum harum nam deleniti assumenda aperiam exercitationem ratione laborum ducimus blanditiis! Illum?</p>
-                <img src="./imagenes/ps4.jpg" alt="noticias-play" class="foto-noticia">
-            </article>
-        </section>
-        <section>
-            <article>
-                <p>Ghostwire: Tokyo ya ha alcanzado los cuatro millones de jugadores</p>
-                <img src="./imagenes/nya_fight_12_wide-212c33df2f87932f93dcfff7d2ca564ff016cbc2.webp" alt="" class="foto-noticia">
-            </article>
-        </section>
-    
-        <section>
-            <h2 class="fondo2">Playstation | Ultimas noticias</h2>
-            <article>
-                <p>Horizon Forbidden West ya ha vendido más de 8,4 millones de copias</p>
-               <img src="./imagenes/hori.webp" alt="noticias-play">
-            </article>
-        </section>
-        <footer class="footer">
-            <div class="foot-head">
-                  <div class="foot-logo">
-                       <img src="./imagenes/pngwing.com.png" alt="">
-                          <p class="logotipo">GatoGamer</p>
-                      <div class="redes">
-                          <span class="fb"><i class="fa-brands fa-facebook"></i></span>
-                          <span class="tw"><i class="fa-brands fa-twitter"></i></span>
-                          <span class="ig"><i class="fa-brands fa-instagram"></i></span>
-                          <span class="yt"><i class="fa-brands fa-youtube"></i></span>
-                          <span class="tk"><i class="fa-brands fa-tiktok"></i></span>
-                      </div>
-               </div>
+        </main>
+
+        <footer class="bg-light text-dark pt-5 pb-4 footer">
+            <div class="container text-center text-md-start">
+                <div class="row text-center text-md-start">
+                        
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Noticias</h5>
+                            <hr class="mb-4">
+                            <p>  
+                                <a href="#" class="text-dark">Xbox</a>
+                            </p>
+                            <p>  
+                                <a href="#" class="text-dark">Nintendo</a>
+                            </p>
+                            <p>  
+                                <a href="#" class="text-dark">Playstation</a>
+                            </p>
+                            <p>  
+                                <a href="#" class="text-dark">PC</a>
+                            </p>
+                    </div>
+                    
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Enlaces Utiles</h5>
+                            <hr class="mb-4">
+                            <p>  
+                                <a href="#" class="text-dark">Terminos y Condiciones</a>
+                            </p>
+                            <p>  
+                                <a href="#" class="text-dark">Codigo de conducta</a>
+                            </p>
+                            <p>  
+                                <a href="#" class="text-dark">Politica Editorial</a>
+                            </p>
+                            <p>  
+                                <a href="#" class="text-dark">Web Corporativa</a>
+                            </p>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+                        <hr class="mb-4">
+                        <p>
+                            <li class="fas fa-home me-3 ft-imagen"></li> Av. Siempre Viva 742 Springfield
+                        </p>
+                    
+                        <p>
+                            <li class="fas fa-envelope me-3 ft-imagen"></li> thgonzalez115@gmail.com
+                        </p>
+                    
+                        <p>
+                            <li class="fas fa-phone me-3 ft-imagen"></li>0800-3333-1111
+                        </p>
+                    
+                        <p>
+                            <li class="fas fa-print me-3 ft-imagen"></li>+555555
+                        </p>
+                    </div>
+                    
+                    <hr class="mb-4">
+                    <div class="text-center mb-2">
+                        <p>
+                            Copyright@ 2023 GatoGamer Studios. Todos los derechos reservados
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.facebook.com/Coderhouse/?locale=es_LA" class="text-dark"> <i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://twitter.com/coderhouse?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="text-dark"> <i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.instagram.com/coderhouse/?hl=es" class="text-dark"> <i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.tiktok.com/@coderhouse" class="text-dark"> <i class="fab fa-tiktok"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a  target="_blank" href="https://www.youtube.com/@CoderHouse" class="text-dark"> <i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.shutterstock.com/es/search/pala" class="text-dark"> <i class="fab fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-    
-            <hr>
-              <div class="section">
-                  <div>
-                      <h2>Explorar</h2>
-                      <a class="link2" href="#top">Volver al inicio</a>
-                      <a class="link2" href="play.html">Play</a>
-                      <a class="link2" href="xbox.html">Xbox</a>
-                  </div>
-              
-                  <div>
-                      <h2>Enlaces utiles</h2>
-                      <a href="#">Web corporativa</a>
-                      <a href="#">Codigo de conducta</a>
-                      <a href="#">Autores</a>
-                      <a href="#">Politica editorial</a>
-                      <a href="#">Terminos y condiciones</a>
-                      <a href="#">Politica de cookies</a>
-                      <a class="link2" href="nosotros.html">Sobre nosotros</a>
-                   </div>
-                  <div>
-                      <h2>Cuenta</h2>
-                      <a href="#">Perfil</a>
-                      <a href="#">Mi cuenta</a>
-                      <a href="#">Preferencias</a>
-    
-                  </div>
-                  <div class="derechos">
-                  <p> Copyright@ 2023 GatoGamer Studios. Todos los derechos reservdos</p>
-                  </div>
-              </div>
-    
         </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 
