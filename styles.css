@@ -52,14 +52,14 @@ section article{
   font-size: 18px;
 }
 
-
+/* BACKGROUNDS --------*/
 .fondo{
   background-color: #118ab2;
 }
 .fondo2{
   background-color: #06d6a0;
 }
-
+/*--------------------*/
 #titulo{
  text-align: center;
 }
@@ -95,6 +95,7 @@ div h2{
   padding: 10px;
 }
 
+/* GRID AREAS------------- */
 .header {
   grid-area: header;
 }
@@ -118,7 +119,7 @@ div h2{
     "footer footer footer"  
 }
 
-/*MOBILE VERTICAL----------------------*/
+/*MOBILE VERTICAL (supongo) ---------------------*/
 
 @media (max-width: 320px){
   .grid-container {
@@ -141,7 +142,7 @@ div h2{
     }
 }
 
-/*MOBILE HORIZONTAL-----------------*/
+/*MOBILE HORIZONTAL (supongo) ----------------*/
 @media (max-width: 480px) {
   .grid-container {
     grid-template-columns: 100%;
