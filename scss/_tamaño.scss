@@ -1,0 +1,10 @@
+$cien:100px;
+$noti-alto:310px;
+$noti-ancho:800px;
+$px10:10px;
+
+@mixin noticias{
+    width: $noti-ancho;
+    height: $noti-alto;
+}
+
