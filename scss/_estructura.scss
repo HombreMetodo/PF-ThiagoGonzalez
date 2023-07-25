@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 62.5% Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    min-height: 100%;
+}
+/*----MAIN-NOTICIA---*/
+section{
+    border: 1px solid black;
+    } 
+    article{
+        margin: 10px;
+        border-radius: 0.5em;
+        font-size: 18px;
+        background-color: $fondo-azul;
+        color: white;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+  /*-----LINKS DEL FOOTER--*/
+footer div {
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        color: $fondo-azul;
+    }
+}
+/* NOSOTROS MODIFICA EL TEXTO DE "NOSOTROS.HTML"*/
+.nosotros{
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 5px;
+    margin: 60px;
+    padding: 60px;
+}

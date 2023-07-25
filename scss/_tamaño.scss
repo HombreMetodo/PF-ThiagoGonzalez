@@ -7,4 +7,28 @@ $px10:10px;
     width: $noti-ancho;
     height: $noti-alto;
 }
+/*TAMAÑO DE LAS IMAGENES*/
+.logo-img{
+    width: $cien;
+    height: $cien; 
+}
 
+.foto-noticia{
+    @include noticias;
+}
+/*-----------------*/
+div h2{
+    padding: $px10;
+}
+.brand img{
+    width:$cien;
+    height: $cien;
+}
+
+.radio{
+    border-radius: $px10;
+}
+
+.centro{
+    text-align: center;
+}
